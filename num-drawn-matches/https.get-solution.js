@@ -30,7 +30,7 @@ function getNumDraws(year) {
             );
             completedRequests++;
             if (completedRequests == 11) {
-              // all requests compleated
+              // all requests completed
               const reducer = (acc, currVal) => acc + currVal;
               const numOfDrawnMatches = responses.reduce(reducer);
               console.log(
